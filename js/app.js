@@ -114,3 +114,5 @@ if(gamePariDispari === true){
     console.log('Ci dispiace, Hai perso!')
     alert('Ci dispiace, Hai perso!') 
 }
+
+console.log('fine esercizio')
