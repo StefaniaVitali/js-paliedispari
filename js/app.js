@@ -65,3 +65,13 @@ console.log(provaDoppia);
 //l'utente scegli un numero da 1 a 5
 const num = parseInt(prompt('Scegli un numero da 1 a 5')); //number
 console.log(num);
+
+//generare un numero random
+//funzione numero random
+function Random (number){
+    const num = number
+    const randomNum = Math.floor(Math.random()*(num) + 1)  //number
+    console.log(randomNum)
+    return randomNum
+}
+
