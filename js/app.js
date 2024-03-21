@@ -15,7 +15,7 @@ const parola = prompt('scrivi una parola');
 
 function palindroma(word){
         
- //--mettere la parola con il lowerCase nel caso inizi con maiuscola 
+    //--mettere la parola con il lowerCase nel caso inizi con maiuscola 
     const lowerCase = word.toLowerCase();
     console.log(word,lowerCase)
     //--dividere la parola in lettere e creare quindi un'array
