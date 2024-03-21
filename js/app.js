@@ -87,16 +87,22 @@ function pariDispari (string, num1){
     
     const resto2 = somma % 2
     let risultato = true
-
+    
+    //SE la stringa è uguale a 'pari' e il numero è pari
     if (string === 'pari' &&  resto2 ===0){
+        //dai risultato vero 
         risultato = true
+    //ALTRIMENTI SE la stringa è uguale a 'dispari' e il numero è dispari   
     } else if (string === 'dispari' && resto2 ===1){
+         //dai risultato vero
         risultato = true
+    //ALTRIMENTI dai risultato falso    
     } else(
         risultato = false
     )
 
     console.log(risultato);
+    //ritorna vero/falso
     return risultato;
 
 }
@@ -107,12 +113,16 @@ console.log(gamePariDispari)
 
 //dire all'utente se ha vinto o perso
 
+//SE il risultato della funzione corrisponde a vero
 if(gamePariDispari === true){
+    //Stampa che l'utente ha vinto
     console.log('Bravo, hai vinto')
     alert('Bravo, hai vinto')
+//ALTRIMENTI    
 } else {
+    // //Stampa che l'utente ha vinto
     console.log('Ci dispiace, Hai perso!')
     alert('Ci dispiace, Hai perso!') 
 }
 
-console.log('fine esercizio')
+
