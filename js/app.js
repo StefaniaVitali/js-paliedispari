@@ -103,3 +103,14 @@ function pariDispari (string, num1){
 
 //invociamo la funzione
 const gamePariDispari = pariDispari(provaDoppia, somma);
+console.log(gamePariDispari)
+
+//dire all'utente se ha vinto o perso
+
+if(gamePariDispari === true){
+    console.log('Bravo, hai vinto')
+    alert('Bravo, hai vinto')
+} else {
+    console.log('Ci dispiace, Hai perso!')
+    alert('Ci dispiace, Hai perso!') 
+}
