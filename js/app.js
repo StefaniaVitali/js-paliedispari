@@ -82,3 +82,24 @@ const numeroRandom = Random(5);
 //Sommiamo i due numeri 
 const somma = num + numeroRandom;
 console.log(somma)
+
+function pariDispari (string, num1){
+    
+    const resto2 = somma % 2
+    let risultato = true
+
+    if (string === 'pari' &&  resto2 ===0){
+        risultato = true
+    } else if (string === 'dispari' && resto2 ===1){
+        risultato = true
+    } else(
+        risultato = false
+    )
+
+    console.log(risultato);
+    return risultato;
+
+}
+
+//invociamo la funzione
+const gamePariDispari = pariDispari(provaDoppia, somma);
