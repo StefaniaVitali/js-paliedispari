@@ -75,3 +75,10 @@ function Random (number){
     return randomNum
 }
 
+//invocare la funzione per il numero casuale da 1 a 5
+const numeroRandom = Random(5);
+
+
+//Sommiamo i due numeri 
+const somma = num + numeroRandom;
+console.log(somma)
