@@ -57,3 +57,11 @@ Sommiamo i due numeri
 Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 Dichiariamo chi ha vinto.
 */
+
+//L’utente sceglie pari o dispari (tramite prompt) 
+const provaDoppia = prompt('Scegli pari o dispari');
+console.log(provaDoppia);
+
+//l'utente scegli un numero da 1 a 5
+const num = parseInt(prompt('Scegli un numero da 1 a 5')); //number
+console.log(num);
